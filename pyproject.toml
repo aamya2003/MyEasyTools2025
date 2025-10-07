@@ -3,19 +3,19 @@ requires = ["setuptools>=61.0", "wheel", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "module"
+name = "MyEasyTools2025"
 dynamic = ["version", "description"]  
 readme = "README.md"
 license = { file = "LICENSE" }
 
 
 authors = [
-  { name="author", email="author@example.com" }
+  { name="ahmed", email="ahmed_tt6hs@example.com" }
 ]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["module*"]
+include = ["MyEasyTools2025*"]
 
 [tool.setuptools_scm]
 version_scheme = "guess-next-dev"
